@@ -3,8 +3,8 @@ webpage to display for chrome browser
 Starting on 26/07/2021
 
 Some of things to add:
-  - date
-  - age
+  - date 
+  - age - done
   - google search bar
   - weather
   - imp documents
