@@ -1,34 +1,105 @@
 .age-container {
-	width: 100%;
-	max-width: 50vh;
-	min-width: 30vh;
-	height: 10vh;
-	position: absolute;
-	left:35%;
-	top: 25%;
-	content:"";
-	background-color: rgba(255, 255, 255, 0.4);
-	border-radius: 30px;
+    position: absolute;
+    left: 40%;
+    right: 40%:
 }
 
 #myage {
-	position: relative;
-	#width: 20%;
-	max-width: 20%;
-	height: 50px;
-	top: 20px;
-	left: 8vh;
-	font-size: 4vh;
+    width: 210px;
+    height: 5px;
+    background-color: #b5e0ba;
+    display: inline-flex;
+    padding: 10px 30px 30px 20px;
+    border: 10px solid transparent;
+    font-size: 25px;
+    border-radius: 50px;
 }
-html {
-	margin: 0;
+
+.life {
+    display: inline-flex;
+    font-size: 30px;
+    color: #b5e0ba;
+    margin: 20px;
 }
 
 body {
-	width: 100vh;
-	margin: 0;
-	height: 100vh;
-	background-image: url("bg_big.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: #5d3a3a;
+    margin: 0;
+    color: white;
+}
+
+.section{
+    position: absolute;
+    margin: 40px 0 0 100px;
+    text-align: left;
+    background-color: black;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-right: 15px;
+    width: 250px;
+    height: 300px;
+}
+
+a:hover {
+    color:  #b5e0ba;
+    background-color: #5C434C;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.dark {
+    display: none;
+    color: white;
+    position: absolute;
+    left: 130px;
+    font-size: 80%;
+}
+
+a:hover + .dark {
+    display: inline;
+}
+
+.Learning {
+    left: 300px;
+}
+
+.todo {
+
+    left: 600px;
+    width: 400px;
+    
+}
+
+.menu {
+    position: absolute;
+    margin-top: 80px;
+    display: inline-flex;
+}
+
+a:link {
+    color: #b5e0ba;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    line-height: 1.5;
+}
+ul {
+    margin-top: 30px;
+}
+
+.head {
+    text-align: center;
+    width: 100%;
+    margin-top: -25px;
+    margin-left: 2.5px;
+    background-color: #b5e0ba;
+    border: 5px solid transparent;
+    border-radius: 40px;
+    color: black;
 }
