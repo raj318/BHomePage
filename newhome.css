@@ -49,14 +49,13 @@ ul {
 
 .head {
     width: 100%;
-    
     background-color: #b5e0ba;
     border-radius: 10px;
     flex: 0 1 30px;
-    
     box-sizing: border-box;
     text-align: center;
     color: black;
+    padding-top: 5px;
 }
 
 .dark {
@@ -83,4 +82,48 @@ a:hover {
 
 .todo .data {
     padding-right: 10px;
+}
+.todo li{
+    font-size: 30px;
+    color: black;
+}
+
+b {
+    color: #b5e0ba;
+}
+
+.follow {
+    text-align: center;
+}
+
+.subhead {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subhead:hover .sub {
+    font-size: 5px;
+    display: inline-block;
+}
+
+.follow li{
+    padding: 3px;
+    padding-bottom: 7px;
+}
+
+.sub {
+    display: none;
+    text-align: center;
+}
+
+.sub li {
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.follow ul {
+    padding: 0px;
 }
